@@ -85,7 +85,7 @@ function startOver() {
 
 $('.btn').click(clickHandler);
 
-$(document).on('keydown', function (event) {
+$(document).on('keydown', function () {
     if (!started) {
         startOver();
     }
